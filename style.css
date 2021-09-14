@@ -12,7 +12,6 @@ body{
 .logotext{
     width: 100%;
     height: 100px;
-    
     padding: 2px;
     background-color: white;
     
@@ -31,9 +30,10 @@ body{
 }
 #conteiner{
     width: 70%;
-    
-    
     margin: 50px auto;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 nav{
     width: 100%;
@@ -42,6 +42,7 @@ nav{
     padding-bottom: 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    border-bottom:4px solid rgb(236, 236, 236);
 }
 .add{
     margin-top: 15px;
@@ -61,3 +62,53 @@ nav{
     color: #d2d6db;
 }
 
+.todo{
+    padding-left: 60px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgba(104,107,114,255);
+    font-weight: 500;
+    
+    padding-bottom: 20px;
+   
+
+}
+.section{
+    margin-bottom: 3px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+    
+
+.tag {
+   
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    color: white;
+
+}
+.tag.editorial{
+    background-color:rgba(69,171,234,255) ;
+
+}
+.tag.q1goals{
+    background-color: rgba(156,114,228,255);
+}
+.tag.recruting{
+    background-color: rgba(100,192,169,255);
+}
+.tag.mobile{
+    background-color: rgba(242,158,51,255);
+}
+.tag.website{
+    background-color: rgba(217,99,161,255);
+}
+.tag.sales{
+    background-color: rgba(176,201,38,255);
+}
+.todo p{
+    padding-bottom: 10px;
+}
