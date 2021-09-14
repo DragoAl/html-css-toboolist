@@ -68,7 +68,6 @@ nav{
     font-size: 25px;
     color: rgba(104,107,114,255);
     font-weight: 500;
-    
     padding-bottom: 20px;
    
 
@@ -78,6 +77,7 @@ nav{
     font-size: 30px;
     padding-bottom: 10px;
     color: black;
+    
 }
 
     
@@ -111,4 +111,32 @@ nav{
 }
 .todo p{
     padding-bottom: 10px;
+    padding-left: 10px;
+
+   
+}
+.checkmark::before{
+    content: url(img/check.jpg);
+    padding-right: 10px;
+}
+.cross::before{
+    content: url(img/cross.jpg);
+    padding-right: 10px;
+}
+/* .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;  /* Preferred icon size 
+    display: inline-block;
+    line-height: 1;
+    text-transform:none;
+    letter-spacing: normal;
+    word-wrap:normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: yellowgreen; */
+
+  
+
 }
