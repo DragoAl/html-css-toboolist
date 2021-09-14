@@ -22,7 +22,7 @@ body{
     height: 70px;
 }
 
-#title{
+#logo-name{
     display: inline-block;
     margin-left: 10px;
     padding-bottom: 30px;
@@ -80,8 +80,6 @@ nav{
     
 }
 
-    
-
 .tag {
    
     border-radius: 20px;
@@ -123,6 +121,9 @@ nav{
     content: url(img/cross.jpg);
     padding-right: 10px;
 }
+
+
+
 /* .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
